@@ -1,0 +1,4 @@
+/caps/*
+!/caps/.gitkeep
+/config/*
+!/config/.gitkeep

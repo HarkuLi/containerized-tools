@@ -1,0 +1,13 @@
+services:
+  wireshark:
+    image: lscr.io/linuxserver/wireshark:latest
+    cap_add:
+      - NET_ADMIN
+    network_mode: host
+    environment:
+      - PUID=1000
+      - PGID=1000
+    restart: unless-stopped
+    volumes:
+      - ./config:/config
+      - ./caps:/tmp/wireshark_caps
