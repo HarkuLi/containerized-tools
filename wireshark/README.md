@@ -11,7 +11,7 @@ Used image:
     make up
     ```
 
-2. Access Wireshark at 127.0.0.1:3000.
+2. Access Wireshark at [127.0.0.1:3000](127.0.0.1:3000).
 
 3.  Stop Wireshark.
 
